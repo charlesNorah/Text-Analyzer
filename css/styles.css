@@ -1,0 +1,34 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
+}
+.form1{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+#text-passage{
+    font-style: italic;
+    font-size: 30px;
+}
+.form2{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+#word{
+    font-style: italic;
+}
+.btn{
+    background-color: darkred;
+    font-size: 30px;
+    margin-left: 35%;
+    font-weight: bold;
+}
