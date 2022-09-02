@@ -124,3 +124,37 @@ const word = "hello world, Acedu is my home";
 const text = "hello";
 topThreeWords(sentence);
 Expected Output: "hello 1" "world 1" "Acedu 1"
+
+
+
+# _{TEXT ANALYZER}
+
+#### _{This is a website created to count the number of words in a sentence}
+
+#### By _**{Norah Charles}
+
+## TEchnologies used
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _Javascript_
+* _Jquery_
+
+## Description
+_{This is a website created to count the number of words in a sentence,the number of occurrences of a particular word in a sentence,bolden the selected word,omit offensive words and return the top three words in a sentence}_
+
+## Setup/Installation Requirements
+* _Open The Directory_
+* _click on the index.html file_
+* _It is designed to open in a web browser_
+* _easy to understand format_
+
+
+## Known Bugs
+The text analyzer is still in its design and functioning phase
+
+## License 
+_ {chinedujoy329@gmail.com}_
+
+## Contact Information
+{08094708935}
