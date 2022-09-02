@@ -15,7 +15,6 @@ function wordTextTrim(word) {
 
 
 
-
 // Business logic
 function wordCounter(text) {
     if (noInputtedWord(text)) {
@@ -31,7 +30,6 @@ function wordCounter(text) {
     });
     return wordCount;
 }
-
 
 
 
@@ -62,11 +60,8 @@ function boldPassage(word, text) {
     let regWord = new RegExp(word, "gi");
     let boldedWord = "<b>" + word + "</b>";
     htmlString = remove.replace(regWord, boldedWord)
-
     return "<p>" + htmlString + "</p>";
 }
-
-
 
 
 
@@ -90,28 +85,23 @@ function omitWord(word) {
 
 
 
-
 function topThreeWords(sentence) {
     let realSentence = sentence.replace(/[^0-9a-z]/gi, ' ').toLowerCase();
     let sentenceArray = realSentence.split(" ");
     let newSentence = [];
     let emptyArray = [];
-
     sentenceArray.forEach(function (element) {
         if (element !== "") {
             newSentence.push(element);
         }
     })
-
     let uniqueSet = [...new Set(newSentence)];
     uniqueSet.forEach(function (word1) {
         let count = 0;
         newSentence.forEach(function (word2) {
-            // if (word1 !== "" && word2 !== "") {
             if (word1 === word2) {
                 count++;
             }
-            // }
         });
         emptyArray.push([word1, count])
     });
@@ -122,6 +112,7 @@ function topThreeWords(sentence) {
         $("#topThree").html("<li>" + emptyArray[0] + "<br>" + emptyArray[1] + "<br>" + emptyArray[2] + "</li>");
     }
 }
+
 
 
 // User Interface logic
@@ -135,17 +126,11 @@ $(document).ready(function () {
         let result1 = numberOfOccurrencesInText(word, text);
         let result2 = wordCounter(text);
         let result3 = boldPassage(word, text);
-        // let result4 = omitWord(result3);
-        //   let result5 = topThreeWords(sentence);
 
 
         $(".btn2").text(result2);
         $(".btn3").text(result1);
-        // $("#bolded-passage").html(result3);
         $(".btn4").html(result3);
-        // $("#topThree").html(result5);
         topThreeWords(text)
-
-
     });
 });
