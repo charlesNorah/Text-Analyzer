@@ -59,38 +59,12 @@ function noInputtedWord() {
     word = wordTextTrim(word);
     text = wordTextTrim(text);
     let remove = omitWord(text);
-    // let textArray = remove.split(" ");
-    // textArray.forEach(function (element, index) {
-    //   if (element.includes(word)) {
-    //     htmlString = htmlString.concat("<b>" + element + "</b>");
-    //   } else {
-    //     htmlString = htmlString.concat(element);
-    //   }
-    //   if (index !== (textArray.length - 1)) {
-    //     htmlString = htmlString.concat(" ");
-    //   }
     let regWord = new RegExp(word, "gi");
     let boldedWord = "<b>" + word + "</b>";
     htmlString = remove.replace(regWord, boldedWord)
   
     return "<p>" + htmlString + "</p>";
   }
-  
-  
-  
-  
-  
-  // function boldPassage(word, text) {
-  //   if (noInputtedWord(word, text)) {
-  //     // return "";
-  //   }
-  //   const regexWord = new RegExp(word, "gi");
-  //   const boldedWord = "<b>" + word + "</b>";
-  //   const htmlString = text.replace(regexWord, boldedWord);
-  //   return "<p>" + htmlString + "</p>";
-  // }
-  
-  
   
   
   
@@ -131,11 +105,11 @@ function noInputtedWord() {
     uniqueSet.forEach(function (word1) {
       let count = 0;
       newSentence.forEach(function (word2) {
-        if (word1 !== "" && word2 !== "") {
+        // if (word1 !== "" && word2 !== "") {
           if (word1 === word2) {
             count++;
           }
-        }
+        // }
       });
       emptyArray.push([word1, count])
     });
