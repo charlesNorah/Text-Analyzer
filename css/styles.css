@@ -1,10 +1,10 @@
 body {
-    background-color: whitesmoke;
+    background-image: url(../img/img\ 1.jpg);
 }
 
 h1 {
     text-align: center;
-    font-size: 90px;
+    font-size: 100px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: darkred;
@@ -13,6 +13,7 @@ h1 {
     font-style: italic;
     font-size: 30px;
     font-weight: bold;
+    color: black;
 }
 #text-passage{
     font-style: italic;
@@ -22,13 +23,90 @@ h1 {
     font-style: italic;
     font-size: 30px;
     font-weight: bold;
+    color: black;
 }
 #word{
     font-style: italic;
+    
 }
-.btn{
+.btn1{
     background-color: darkred;
     font-size: 30px;
     margin-left: 35%;
     font-weight: bold;
+}
+.btn2{
+    display: block;
+    height: 100px;
+    width: 220px;
+    border-radius: 20%;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    margin-left: 40%;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 70px;
+}
+.para1{
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+}
+.btn3{
+    display: block;
+    height: 100px;
+    width: 150px;
+    border-radius: 20%;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    margin-left: 43%;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 70px;
+}
+.para2{
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+}
+.btn4{
+    display: block;
+    height: 120px;
+    width: 1000px;
+    /* border-radius: 10%; */
+    border: 1px solid whitesmoke;
+    background-color: white;
+    margin-left: 8%;
+    font-family: cursive;
+    font-size: 20px;
+}
+.para3{
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+}
+.btn5{
+    display: block;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 10%;
+    border: 5px solid darkred;
+    background-color: white;
+    margin-left: 8%;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 20px;
+}
+.para4{
+    font-size: 80px;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
 }

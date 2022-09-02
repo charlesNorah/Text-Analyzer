@@ -12,24 +12,36 @@
     <script src="js/scripts.js"></script>
 </head>
 
-<body>
+<body> <br>
     <div class="container">
         <h1><b>TEXT ANALYZER</b></h1>
         <form id="word-counter">
             <div class="form-group">
                 <div>
-                    <p  class="form1"><b>Input A Text Passage To Get A Total Word Count:</b></p>
+                    <p class="form1"><b>Input A Text Passage To Get A Total Word Count:</b></p>
                     <textarea id="text-passage" name="text-passage" class="form-control form-control-lg"></textarea>
                 </div> <br>
 
-               <div>
-                <p class="form2"><b>Enter a word to count the number of times it occurs in the passage:</b></p>
-                <input type="text" id="word" name="word" class="form-control form-control-lg">
-               </div>
+                <div>
+                    <p class="form2"><b>Enter a word to count the number of times it occurs in the passage:</b></p>
+                    <input type="text" id="word" name="word" class="form-control form-control-lg">
+                </div>
                 <br> <br>
-                <button id="button" type="submit" class="btn btn-danger"><b>SUBMIT SURVEY</b></button>
+                <button type="submit" class="btn btn-danger btn1"><b>SUBMIT SURVEY</b></button>
             </div>
-        </form>
+        </form> <br> <br>
+
+        <p class="para1"> <b>Total Word Count:</b> <button class="btn btn-light btn2"></button> <span
+                id="total-count"></span></p> <br>
+        <p class="para2"><b>Selected Word Count:</b> <button class="btn btn-light btn3"></button> <span
+                id="selected-count"></span></p> <br>
+        <p class="para3"> Offensive/Bold Word Check: <button class="btn btn-light btn4"></button> <span
+                id="offensive-word"></span></p> <br>
+        <div >
+            <p class="para4"><b>TOP THREE WORDS:</b> <button class="btn btn-light btn5">
+                <ul id="topThree"></ul>
+                </button> <span id="offensive-word"></span></p>
+        </div>
 
     </div>
 </body>
