@@ -129,11 +129,11 @@ Expected Output: "hello 1" "world 1" "Acedu 1"
 
 
 
-# _{TEXT ANALYZER}
+# _{TEXT ANALYZER}_
 
-#### _{This is a website created to count the number of words in a sentence}
+#### _{This is a website created to count the number of words in a sentence.}_
 
-#### By _**{Norah Charles}
+#### By {Charles Norah}
 
 ## TEchnologies used
 * _HTML_
@@ -153,10 +153,10 @@ _{This is a website created to count the number of words in a sentence,the numbe
 
 
 ## Known Bugs
-The text analyzer is still in its design and functioning phase
+The text analyzer is still in its design and functioning phase.
 
 ## License 
 _ {MIT}_
 
 ## Contact Information
-{08094708935}
+{norahcharles026@gmail.com}

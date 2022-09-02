@@ -96,7 +96,7 @@ function topThreeWords(sentence) {
         }
     })
     let uniqueSet = [...new Set(newSentence)];
-    uniqueSet.forEach(function (word1) {
+    uniqueSet.forEach(function (word1) { 
         let count = 0;
         newSentence.forEach(function (word2) {
             if (word1 === word2) {
