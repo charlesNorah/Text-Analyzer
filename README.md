@@ -156,7 +156,7 @@ _{This is a website created to count the number of words in a sentence,the numbe
 The text analyzer is still in its design and functioning phase
 
 ## License 
-_ {chinedujoy329@gmail.com}_
+_ {MIT}_
 
 ## Contact Information
 {08094708935}
